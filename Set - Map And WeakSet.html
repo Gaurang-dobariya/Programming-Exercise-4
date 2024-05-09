@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+        let set = new Set()
+        
+        set.add(20)
+        set.add(5)
+        set.add(66)
+        set.add(8)
+        set.add(10)
+
+        set.has(66)
+
+        set.delete(5)
+        
+        console.log(set);
+
+
+
+        let Weakset = new WeakSet()
+
+        Weakset.add({name : "Dobariya"})
+        Weakset.add({name : "Gaurang"})
+        Weakset.has("Gaurang")
+        
+        console.log(Weakset);
+        
+
+
+        let map = new Map()
+
+        map.set("name","Gaurang")
+
+        console.log(map);
+
+    </script>
+
+</body>
+</html>
